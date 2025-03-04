@@ -29,9 +29,8 @@ def listar_clientes():
     sql = "SELECT * FROM clientes"
     cursor.execute(sql)
     resultado = cursor.fetchall()
-    for cliente in resultado:
-        print(cliente)
-    cursor.close() 
+    cursor.close()
+    return resultado
     
 #CRIANDO FUNÇÃO DE ATUALIZAR CLIENTE
 def atualizar_cliente(id, novo_nome, novo_email, novo_telefone, novo_endereco):
