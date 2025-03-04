@@ -15,8 +15,6 @@ Este é um projeto de **CRUD (Create, Read, Update, Delete)** desenvolvido em **
 - **Python** 🐍  
 - **MySQL** 🗄️  
 - **Tkinter** 🎨 (Interface gráfica)  
-- **MySQL Connector** 🔗 (Conexão com o banco de dados)  
-- **tkinter.messagebox** ⚠️ (Alertas e mensagens interativas)  
 
 ## 📌 Como usar  
 
