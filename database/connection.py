@@ -11,4 +11,6 @@ conexao = mysql.connector.connect(
     password=os.getenv('DB_PASSWORD'),
     database=os.getenv('DB_NAME')
 )
+
 cursor = conexao.cursor()
+print("Conexão bem-sucedida!")

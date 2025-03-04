@@ -64,6 +64,7 @@ def deletar_cliente(id):
         
         cursor.execute(sql, valores)
         conexao.commit()
+        print('✅ Cliente removido com sucesso!')
     except mysql.connector.Error as erro:
         print(f'⚠️ Erro ao remover o cliente: {erro}')
     finally:
