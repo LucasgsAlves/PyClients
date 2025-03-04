@@ -1,8 +1,5 @@
 from services.crud import adicionar_cliente, listar_clientes, atualizar_cliente, deletar_cliente
 
-adicionar_cliente('Pedro Carlos', 'pedrocarlinhos@gmail.com', '6198775323', 'QC 8')
-
-
 def exibir_menu():
     print('\n' + '='*40)
     print('📋  MENU PRINCIPAL - CADASTRO DE CLIENTES')
